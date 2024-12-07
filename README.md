@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/3820752a-2b4d-47cc-95b5-ce1b8d44d943)# regressionsAndMore
+# regressionsAndMore
 
 Q1: Linear regression
 An implementation of batch linear regression was done on the dataset provided, detailed working of the program is inside the code in form of comments.
@@ -19,7 +19,7 @@ Eta = 0.001
 Results = iterations: 266582, theta0: 3.007725469761903, theta1: 0.9794332168445327, theta2: 2.0312979818911483
 error (MSE) for test data(q2test.csv) is: 2.103890208910105
 error (MSE) for original hypothesis function is: 0.14414347962222854
-![image](https://github.com/user-attachments/assets/ec178f12-6879-4689-a6e6-c5bd3b222d95)
+![image](https://github.com/user-attachments/assets/465f295d-709d-4d1a-935f-fb6d3b0a9e1c)
 
 
 Batch size 100: stopping criteria = absolute value of change in theta values<3*10**-5
@@ -30,7 +30,8 @@ Results = iterations: 15409, theta0: 2.9527389936897785, theta1: 1.0101534128884
 error (MSE) for test data(q2test.csv) is: 1.9768359330108605
 error (MSE) for original hypothesis function is: 0.01155108491791847
 
-![image](https://github.com/user-attachments/assets/052b9b62-8b2b-40b4-8fe8-b48a39f8bda8)
+![image](https://github.com/user-attachments/assets/27a1aa11-378d-4fd7-a110-323232734428)
+
 
 
 Batch size 10000: stopping criteria = absolute value of change in theta values<3*10**-5
@@ -39,8 +40,8 @@ Eta = 0.001
 Results = theta0: 2.9148668790418713, theta1: 1.018206539422197, theta2: 1.99384770315497
 error (MSE) for test data(q2test.csv) is: 2.0067070788682986
 error (MSE) for original hypothesis function is: 0.040335223942400696
+![image](https://github.com/user-attachments/assets/2ef35d99-f55f-498d-8aa1-e14aaae20764)
 
-![image](https://github.com/user-attachments/assets/685a12f2-730a-44a8-8684-e208fbd6f59d)
 
 Batch size 1 M: stopping criteria = absolute value of change in theta values<3*10**-3
 Also, the stopping criteria was made more robust by adding a counter, such that if the stopping criteria is met ‘5’ times only then stop the training process. This was done to reduce the effect of randomness and ensure the convergence is due to actual convergence of error function and not because of random chance
@@ -48,9 +49,7 @@ Eta = 0.1
 Results = iterations: 132, theta0: 2.9230486039669787, theta1: 1.016180373357568, theta2: 1.9945392114671847
 error (MSE) for test data(q2test.csv) is: 1.9983156650626748
 error (MSE) for original hypothesis function is: 0.031982964564808945
-
-![image](https://github.com/user-attachments/assets/eb7fd021-a0de-418d-b76c-fa60f342a366)
-
+![image](https://github.com/user-attachments/assets/ee60a1ae-427b-4da7-b86c-413f3871b316)
 
 
 Q3 Logistic Regression
